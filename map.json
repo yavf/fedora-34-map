@@ -128,6 +128,22 @@
          "id":20,
          "name":"waiting_lounge",
          "opacity":1,
+         "properties":[
+                {
+                 "name":"jitsiInterfaceConfig",
+                 "type":"string",
+                 "value":": { \"DEFAULT_BACKGROUND\": \"#51A2DA\" }"
+                }, 
+                {
+                 "name":"jitsiRoom",
+                 "type":"string",
+                 "value":"fedora-party"
+                }, 
+                {
+                 "name":"jitsiTrigger",
+                 "type":"string",
+                 "value":"onAction"
+                }],
          "type":"tilelayer",
          "visible":true,
          "width":80,
